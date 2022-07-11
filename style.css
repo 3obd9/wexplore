@@ -101,21 +101,23 @@ button{
 
 
 @media (max-width: 700px) {
-    body{
-        text-align: center !important;
-    }
+
     .h1_header{
-        font-size: 20px !important;
+        font-size: 10px !important;
         text-align: center !important;
     }
 
     .p_header{
-        width: 310px !important;
+        width: 290px !important;
     }
 
     .carousel_header{
-        width: 100% !important;
-        margin: auto !important;
+        width: 500px;
+        margin: auto;
+    }
+    .leaders{
+        width: 500px;
+        margin: auto;
     }
 
     .feature{
@@ -124,5 +126,11 @@ button{
 
     img{
         width: 270px !important;
+    }
+    .img_certificats{
+        padding-bottom: 30px;
+    }
+    .h1_story{
+        padding-bottom: 15;
     }
 }
