@@ -192,7 +192,7 @@ button{
     }
     .card{
         width: 14rem !important;
-        margin: auto;
+        margin: auto !important;
     }
     .book_adventures h3{
         font-size: 1.2rem !important;
