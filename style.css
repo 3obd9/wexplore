@@ -147,34 +147,23 @@ button{
     #story{
         padding: 70px 30px;
     }
-
-    /* h1 */
-    h1{
-        font-size: 1.2rem !important;
-    }
-    /* h3 */
-    h3{
-        font-size: 1rem !important;
-    }
-    /* p */
-
-
-    
     /* NAVBAR /////////////////////////////////////////////////////////////////////////*/
     .navbar-brand{
-        font-size: 1rem !important;
+        font-size: 1.2rem !important;
     }
-
-
+    .nav-link{
+        font-size: 1rem !important;
+      }
 
     /* header///////////////////////////////////////////////////////////////////////// */
     .h1_header{
+        font-size: 1.5rem !important;
         text-align: center !important;
     }
 
     .p_header{
         width: 310px;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         text-align: center !important;
     }
     .carousel_header{
@@ -187,31 +176,40 @@ button{
         text-align: center !important;
         margin-bottom: 30px !important;
     }
+    .feature-title{
+        font-size: 1.2rem;
+    }
 
 
 
     /* adventures///////////////////////////////////////////////////////////////////////// */
     .card{
-        width: 15rem;
+        width: 9rem;
     }
+
     /* feature///////////////////////////////////////////////////////////////////////// */
     .h1_feature{
-        margin-bottom: 50px;
+        font-size: 1.2rem !important;
+        margin-bottom: 20px;
     }
 
     /* story/////////////////////////////////////////////////////////////////////////*/
     .h1_story{
+        font-size: 1.2rem !important;
         margin-bottom: 15px;
     }
     #story p{
         margin-bottom: 10px;
     }
     .leaders{
-        width: 330px;
+        width: 350px;
         margin: auto;
     }
     #story img{
         width: 270px !important;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    .copyright{
+        font-size: 0.8rem;
     }
 }
