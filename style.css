@@ -102,6 +102,10 @@ button{
 .leaders{
     padding: 0 50px 30px 0px;
 }
+.copyright{
+    text-align: center;
+    margin-top: 70px;
+}
 #header{
     background-color: rgb(12, 14, 26);
     padding: 3% 17% 7%;
@@ -144,21 +148,33 @@ button{
         padding: 70px 30px;
     }
 
-    /* NAVBAR */
+    /* h1 */
+    h1{
+        font-size: 1.2rem !important;
+    }
+    /* h3 */
+    h3{
+        font-size: 1rem !important;
+    }
+    /* p */
+
+
+    
+    /* NAVBAR /////////////////////////////////////////////////////////////////////////*/
     .navbar-brand{
         font-size: 1rem !important;
     }
 
-    /* header */
 
+
+    /* header///////////////////////////////////////////////////////////////////////// */
     .h1_header{
-        font-size: 1.2rem !important;
         text-align: center !important;
     }
 
     .p_header{
         width: 310px;
-        font-size: 1rem;
+        font-size: 0.7rem;
         text-align: center !important;
     }
     .carousel_header{
@@ -166,24 +182,36 @@ button{
         margin: auto;
     }
 
+    /* statistics///////////////////////////////////////////////////////////////////////// */
+    .feature{
+        text-align: center !important;
+        margin-bottom: 30px !important;
+    }
 
 
+
+    /* adventures///////////////////////////////////////////////////////////////////////// */
+    .card{
+        width: 15rem;
+    }
+    /* feature///////////////////////////////////////////////////////////////////////// */
+    .h1_feature{
+        margin-bottom: 50px;
+    }
+
+    /* story/////////////////////////////////////////////////////////////////////////*/
+    .h1_story{
+        margin-bottom: 15px;
+    }
+    #story p{
+        margin-bottom: 10px;
+    }
     .leaders{
-        width: 300px;
+        width: 330px;
         margin: auto;
     }
-
-    .feature{
-        margin: 30px !important;
-    }
-
-    img{
+    #story img{
         width: 270px !important;
-    }
-    .img_certificats{
-        padding-bottom: 30px;
-    }
-    .h1_story{
-        padding-bottom: 15;
+        margin-bottom: 30px;
     }
 }
