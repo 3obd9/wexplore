@@ -148,8 +148,11 @@ button{
         padding: 70px 30px;
     }
     /* NAVBAR /////////////////////////////////////////////////////////////////////////*/
+    .navbar{
+        padding: 0 0 2rem !important;
+    }
     .navbar-brand{
-        font-size: 1.2rem !important;
+        font-size: 1.5rem !important;
     }
     .nav-link{
         font-size: 1rem !important;
@@ -157,13 +160,13 @@ button{
 
     /* header///////////////////////////////////////////////////////////////////////// */
     .h1_header{
-        font-size: 1.5rem !important;
+        font-size: 1.3rem !important;
         text-align: center !important;
     }
 
     .p_header{
         width: 310px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
         text-align: center !important;
     }
     .carousel_header{
@@ -177,25 +180,30 @@ button{
         margin-bottom: 30px !important;
     }
     .feature-title{
-        font-size: 1.2rem;
+        font-size: 1.3rem !important;
     }
 
 
 
     /* adventures///////////////////////////////////////////////////////////////////////// */
+    .h1_adventures{
+        font-size: 1.5rem;
+    }
     .card{
-        width: 9rem;
+        width: 9rem !important;
+    }
+    .book_adventures h3{
+        font-size: 1.2rem !important;
     }
 
     /* feature///////////////////////////////////////////////////////////////////////// */
     .h1_feature{
         font-size: 1.2rem !important;
-        margin-bottom: 20px;
+        margin-bottom: 20px !important;
     }
 
     /* story/////////////////////////////////////////////////////////////////////////*/
     .h1_story{
-        font-size: 1.2rem !important;
         margin-bottom: 15px;
     }
     #story p{
