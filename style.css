@@ -140,6 +140,7 @@ button{
     }
     #adventures{
         padding: 70px 30px;
+        text-align: center !important;
     }
     #feature{
         padding: 70px 30px;
@@ -160,7 +161,7 @@ button{
 
     /* header///////////////////////////////////////////////////////////////////////// */
     .h1_header{
-        font-size: 1.3rem !important;
+        font-size: 1rem !important;
         text-align: center !important;
     }
 
@@ -189,23 +190,13 @@ button{
     .h1_adventures{
         font-size: 1.5rem;
     }
-    .card{
-        width: 6rem !important;
-    }
-    .card-text{
-        font-size: 0.7rem !important;
-    }
-    .btn-card{
-        font-size: small !important;
-    }
     .book_adventures h3{
         font-size: 1.2rem !important;
     }
 
     /* feature///////////////////////////////////////////////////////////////////////// */
     .h1_feature{
-        font-size: 1.2rem !important;
-        margin-bottom: 20px !important;
+        font-size: 1.5rem !important;
     }
 
     /* story/////////////////////////////////////////////////////////////////////////*/
@@ -213,17 +204,17 @@ button{
         margin-bottom: 15px;
     }
     #story p{
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
     }
     .leaders{
-        width: 310px;
+        width: 300px;
         margin: auto;
     }
     #story img{
-        width: 270px !important;
-        margin-bottom: 50px;
+        width: 270px;
+        margin-bottom: 50px !important;
     }
     .copyright{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
 }
