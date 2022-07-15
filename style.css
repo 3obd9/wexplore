@@ -190,7 +190,13 @@ button{
         font-size: 1.5rem;
     }
     .card{
-        width: 9rem !important;
+        width: 6rem !important;
+    }
+    .card-text{
+        font-size: 0.7rem !important;
+    }
+    .btn-card{
+        font-size: small !important;
     }
     .book_adventures h3{
         font-size: 1.2rem !important;
@@ -210,7 +216,7 @@ button{
         margin-bottom: 10px;
     }
     .leaders{
-        width: 350px;
+        width: 310px;
         margin: auto;
     }
     #story img{
