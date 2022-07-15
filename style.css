@@ -190,6 +190,10 @@ button{
     .h1_adventures{
         font-size: 1.5rem;
     }
+    .card{
+        width: 14rem !important;
+        text-align: center !important;
+    }
     .book_adventures h3{
         font-size: 1.2rem !important;
     }
