@@ -208,11 +208,14 @@ button{
         margin-bottom: 15px;
     }
     #story p{
-        margin-bottom: 10px !important;
+        margin-bottom: 25px !important;
     }
     .leaders{
         width: 300px;
         margin: auto;
+    }
+    img{
+        width: 210px;
     }
     #story img{
         width: 270px;
